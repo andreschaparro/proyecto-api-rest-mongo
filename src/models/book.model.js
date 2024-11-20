@@ -6,7 +6,7 @@ const bookSchema = new mongoose.Schema(
         // Los tipos son propios de mongoose
         title: String,
         author: String,
-        genere: String,
+        genre: String,
         publication_date: String
     }
 )
