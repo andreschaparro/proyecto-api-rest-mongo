@@ -8,12 +8,14 @@
 - [MongoDB Compass](https://www.mongodb.com/try/download/compass).
 - [Docker](https://www.docker.com/get-started/).
 
-## Paquetes de Node JS
+## Ejecutar el proyecto localmente
 
-- [nodemon](https://www.npmjs.com/package/nodemon).
-- [dotenv](https://www.npmjs.com/package/dotenv).
-- [Express](https://expressjs.com/en/5x/api.html).
-- [Mongoose](https://mongoosejs.com/).
-- [body-parser](https://www.npmjs.com/package/body-parser).
+1. Clonar el repositorio.
+2. Ejecutar `npm install`.
+3. Crear el archivo `.env` en base a `.env.template`.
+4. Ejecutar `docker compose up -d`.
+5. Ejecutar `npm run dev`.
+
+📝PORT recomendado 3000.
 
 Autor: Ing. Andres Chaparro
